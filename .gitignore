@@ -1,0 +1,7 @@
+# vim swap files
+*.swp
+
+# vscode local settings
+*.vscode/
+
+__pycache__/
