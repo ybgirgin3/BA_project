@@ -1,0 +1,113 @@
+Merhaba,
+ 
+Bugün (3 Kasım) yaptığımız mülakattan sonra sizden aşağıdaki projeyi yapmanızı istiyoruz.
+Aklınıza proje ile ilgili bir soru gelirse lütfen çekinmeden sorun.
+ 
+Teslim zamanı: 8 Kasım pazartesi sabah saat 10:00'a kadardır.
+------------------------------------
+ 
+Python Projesi
+
+ 
+Aşağıdaki örnek veri için CRUD işlemlerin REST API üzerinden yapılmasını sağlayan bir proje istiyoruz. Kullanıcı kaydı, authentication, web arayüzü olmayacak. Sadece basit bir REST API istiyoruz.
+
+ 
+Python dili ve Flask framework’ü kullanılmalı. Başka bir framework kullanılabilir ama kullanılanılan farklı framework’ü açıklamanız istenebilir.
+
+ 
+Veri sadece hafızada tutulabilir, veriyi veri tabanında tutmaya gerek yok.
+
+ 
+Proje github’a yüklenmeli ve github reposu public olarak erişilebilir olmalı.
+
+ 
+Projenin nasıl çalıştırılacağı, proje çalıştırılmadan önce nelerin yüklenmesi gerektiği açıkça github’daki repounun README.md dosyasına yazılmalıdır. 
+
+ 
+Proje Windows veya Ubuntu üzerinde çalışabilmelidir. İşletim sistemi seçimi size ait, bu konuda herhangi bir zorunluluk yok.
+
+ 
+Proje Postman aracı ile test edilecektir. Kullandığınız Postman collection’ı export ederek github reposuna eklemeniz gerekmektedir.
+
+ 
+Örnek “Practice” veri seti:
+
+-----------------------------------------
+
+[
+
+  {
+
+    "id": "3136e3cd-c90c-48bb-b9a9-60ca68382ad7",
+
+    "title": "Say hello with python",
+
+    "problem": "Print hello world in Python using print",
+
+    "point": 1,
+
+    "level": "beginner",
+
+    "language": "python",
+
+    "input": "",
+
+    "expected_output": "Hello World"
+
+  },
+
+  {
+
+    "id": "1ff26d62-e748-4907-bccf-cf2eec4ec06b",
+
+    "title": "Arithmetic Operators - Sum",
+
+    "problem": "Sum two numbers",
+
+    "point": 1,
+
+    "level": "beginner",
+
+    "language": "python",
+
+    "input": "5,6",
+
+    "expected_output": "11"
+
+  },
+
+  {
+
+    "id": "d07cb6ee-af91-4d0f-abd7-efe1693a8d3f",
+
+    "title": "Loops",
+
+    "problem": "Print the square of each number in the loop step",
+
+    "point": 1,
+
+    "level": "beginner",
+
+    "language": "python",
+
+    "input": "4",
+
+    "expected_output": "0,1,4,9"
+
+  }
+
+]
+
+ 
+Değerlendirme kriterleri:
+Github reposu erişilebilir olmalıdır. Proje hazır dedikten sonra Github reposu üzerinde çalışmaya, güncelleme yapmaya devam edebilirsiniz. Ancak kontrol anında proje çalışabilir olmalıdır. Bu yüzden yarım kalmış düzeltmeler ve özellikler olmamalıdır.
+
+Proje çalışabilir olmalıdır. Çalışmayan projeler değerlendirme dışıdır.
+
+Kodlara sadece açıklama gerekiyorsa yorum eklenmelidir.
+
+README.md dosyasının içeriği ve formatı için bir kısıtlama yoktur.
+
+Yüklediğiniz Postman collection ile proje test edilebilir olmalıdır.
+
+Bonus: Authorization ekleyebilirsiniz. Postman isteklerinin içine eklenen “hardcoded” bir token ile yetkilendirme yapabilirsiniz. Bu yetkilendirmeyi “hardcoded” olarak doğrulayabilirsiniz.
